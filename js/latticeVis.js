@@ -15,7 +15,7 @@ LatticeVis.prototype.init = function(){
     self.margin = {top: 0, right: 10, bottom: 0, left: 0};
 
     //Gets access to the div element created for this chart from HTML
-    $("#background-vis").css("height", $("#background").height()-$("#background-intro").height()-$("#background-stats").height()-$("#background h4").height()-150);
+    $("#background-vis").css("height", $("#background").height()-$("#background-intro").height()-$("#background-stats").height()-$("#background h4").height()-200);
     let divLatticeVis = d3.select("#lattice-vis");
     $("#lattice-vis").height($("#background-vis").height());
     self.svgWidth = window.innerWidth*.7;
