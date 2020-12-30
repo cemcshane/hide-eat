@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hide & Eat</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Marmelad&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <div id="title">
+            <h1>hide&eat</h1>
+            <h3>Adult picky eaters are on the rise, but they're not advertising.</h3>
+            <p>Scroll</p>
+            <svg width="90" height="30" id="scroll-arrow">
+                <line x1="10" y1="0" x2="45" y2="16" stroke="#9FA2A6"></line>
+                <line x1="45" y1="16" x2="80" y2="0" stroke="#9FA2A6"></line>
+            </svg>
+        </div>
+        <div id="background">
+            <h5 id="b1">Based on a representative sample of internet-using adults in the US,</h5>
+            <h5><strong>27.1%</strong> are picky eaters<span id="stats"><strong>3.1%</strong> have restrictive eating disorders</span></h5>
+            
+            <h4>In a group of 35 people, that might look like:</h4>
+            <div id="background-vis">
+                <div id="lattice-vis"></div>
+                <!-- <div id="food-counts">
+                    <div>
+                        <p>9 people refusing a salad</p>
+                        <p>1 person only eating bread</p>                          
+                    </div>
+                </div>                 -->
+            </div>
+
+        </div>
+        <div id="importance">
+            dirty little secret
+            quiet misery
+            private hell
+        </div>
+        <div id="part_1">
+            <div id="diet-vis"></div>
+        </div>
+        <div id="info">
+            <div id="intro-div">According to a study by the National Center for Biotechnology Information, the average American eats approximately <strong>26 unique foods</strong> over a 3 day period.</div>
+            <div id="info-2">From here, we'll divide the foods by how often Americans proportionally eat breakfast, lunch, and dinner. [add info tooltip]</div>
+            <div id="info-3">Next we'll remove the percentage of these meals that Americans typically eat <strong>alone</strong>. [add info tooltip]</div>
+            <div id="info-4">
+                Now we have the number of different foods the typical American eats <em><strong>in the presence of another person</strong></em> in three days.
+                <br><br><br>
+                <span id="final-num">16 unique foods</span>
+            </div>
+        </div>
+
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/imakewebthings-waypoints-34d9f6d/lib/jquery.waypoints.min.js"></script>
+        <script src="../js/d3.min.js"></script>
+        <script src="../js/styling.js"></script>
+        <script src="../js/latticeVis.js"></script>
+        <script src="../js/dietVis.js"></script>
+        <script src="../js/main.js"></script>
+    </body>
+</html>
