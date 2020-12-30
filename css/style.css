@@ -66,8 +66,8 @@ strong {
     padding-left: 55px;
 }
 
-#background p {
-    margin: 0;
+#popup {
+    opacity: 0;
 }
 
 #background h4 {
@@ -76,22 +76,12 @@ strong {
 
 #background-vis {
     text-align: center;
-    /* height: 45vh; */
 }
 
 #background-vis div {
     display: inline-block;
 }
 
-/* #lattice-vis {
-    width: 60%;
-} */
-
-/* #food-counts {
-    width: 30%;
-    text-align: start;
-    height: 45vh;
-} */
 .latticecircles {
     opacity: 0;
     fill: lightgray;
@@ -134,7 +124,11 @@ strong {
 }
 
 #info-4 {
-    padding-bottom: 15vh;
+    padding-bottom: 30vh;
+}
+
+.meaning {
+    font-size: 16px;
 }
 
 .extra {
@@ -145,4 +139,12 @@ strong {
     font-size: 50px;
     font-weight: bold;
     color: #f05454;
+}
+
+#info-4 h5 {
+    margin-bottom: 0;
+}
+
+.source {
+    font-size: 12px;
 }

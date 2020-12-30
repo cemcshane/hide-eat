@@ -86,6 +86,7 @@ LatticeVis.prototype.init = function(){
             $(".latticecircles").delay(5000).animate({opacity: 1}, 1000);
             self.svg.selectAll(".picky").transition().delay(7000).duration(1000).style("fill", "#ffa85c");
             self.svg.selectAll(".arfid").transition().delay(9000).duration(1000).style("fill", "#d92721");
+            $("#popup").delay(11000).animate({opacity: 1}, 1000);
         }
     }, {offset: window.innerHeight/4});
 };
