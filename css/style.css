@@ -23,14 +23,13 @@ strong {
 
 #title h3 {
     font-size: 32px;
-    /* width: 60%; */
 }
 
 #title p {
     font-family: 'Bitter', serif;
     font-size: 25px;
     margin-top: 25vh;
-    margin-bottom: 10px;
+    margin-bottom: 5vh;
 }
 
 #scroll-arrow {
